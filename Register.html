@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body style="background-color: pink">
+	<h1><a href="index.html">Home</a></h1>
+	
+	<!-- USE GET, not POST (This is a comment in html)-->
+	<form method="GET"> <hr>
+		First name : <input type="text" name="FirstName"><br><hr>
+		Last name : <input type="text" name="LastName"><br><hr>
+		Email : <input type="Email" name="Email"required><br><hr>
+		Password : <input type="Password" min="8" name="Password" required><br><hr>
+		Contact Number : <input type="Number" name="Contact"><br><hr>
+		Date of Birth : <input type="date" name="Birthday"><br><hr>
+		
+		Gender :<br> <input type="radio" name="Gender" value="MALE">MALE<br>
+				<input type="radio" name="Gender" value="FEMALE">FEMALE<br>
+				<input type="radio" name="Gender" value="LGBT">LGBT<br>
+				<input type="radio" name="Gender" value="OTHER">OTHER<br><hr>
+		
+		Skills : <br><input type="checkbox" name="Skills" value="C">C<br>
+				<input type="checkbox" name="Skills" value="C++">C++<br>
+				<input type="checkbox" name="Skills" value="HTML">HTML<br>
+				<input type="checkbox" name="Skills" value="CSS">CSS<br>
+				<input type="checkbox" name="Skills" value="JavaScript">JavaScript<br>
+				<input type="checkbox" name="Skills" value="PHP">PHP<br>
+				<input type="checkbox" name="Skills" value="Java">Java<br>
+				<input type="checkbox" name="Skills" value="Python">Python<br>
+				<input type="checkbox" name="Skills" value=".Net">.Net<br>
+				<input type="checkbox" name="Skills" value="MySQL">MySQL<br><hr>
+		Location : 
+		<select name="Location">
+			<option value="Mumbai">Mumbai</option>
+			<option value="Banglore">Banglore</option>
+			<option value="Newyork">Newyork</option>
+			<option value="Toronto">Toronto</option>
+		</select><br><hr>
+
+		<input type="submit" value= "Register">
+		<input type="reset">
+	</form>
+</body>
+</html>
